@@ -1,0 +1,26 @@
+.headerTwo{
+  height: 1080px;
+  max-width: 80px;
+  background: #202225;
+  margin: -10px 0 0 0;
+
+
+}
+
+  button{
+    background-color: #36393F; 
+    padding: 22px 22px;
+    border-radius: 22px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 22px; /* Set a width if needed */
+    display: block; 
+    margin: 10px auto;
+    &:hover {
+     border-radius: 17px; 
+     background-color: rgba(130, 211, 130, 0.76);
+    }
+
+
+    }
+   
+   

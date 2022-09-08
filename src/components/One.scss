@@ -1,0 +1,15 @@
+.headerOne{
+  width: 1080px;
+  height: 40px;
+  background: #202225;
+  
+  
+}
+.ds{
+  margin: 15px 15px 15px 15px;
+  transition: all 0.5s;
+  -webkit-text-stroke: 1px #d6f4f4;
+}
+.ds:hover{
+  -webkit-text-stroke: 2px #f4dcd6;
+}
