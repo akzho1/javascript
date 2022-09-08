@@ -1,6 +1,29 @@
 .headerFour{
-  background-color: #34373bda;
+  background-color: #34373bf3;
   width: 250px;
   height: 1080px;
 margin: -1096px 0 0 830px;
+}
+
+
+.collasible{
+  align-content: center;
+  background-color: #34373baf;
+  color:white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+.active,
+.collasible:hover{
+  background-color: #34373bda;
+}
+.content{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #34373bda;
 }
